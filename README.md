@@ -28,7 +28,11 @@ Before creating a model I cleaned and familiarized myself with the data to find 
 Now that I am more familiar with the data, this is where I manipulate the data for modeling. 
 
 **Cabin**
-* I first took a look at the 'Cabin' column. I separated the column into 'cabin letter' and 'cabin multiple'. I then took a look at the survival perccentages for both of the new columns.  
+* I first took a look at the 'Cabin' column. I separated the column into 'cabin letter' and 'cabin multiple'. I then took a look at the survival perccentages.  
 
-![Screenshot (116)](https://user-images.githubusercontent.com/91089401/153506755-f7469c3e-09a9-4f8d-bd7b-dcfd3ffa75dc.png)
 ![Screenshot (97)](https://user-images.githubusercontent.com/91089401/153506309-7c82c477-f396-4f0f-bf85-b10534ad7ad3.png)
+
+**Fare**
+* Taking a look at fare prices and categorizing them into small, medium, and large price ranges. I did not include this in the final model since I produced better results with the original fare. This may be due to overfitting the model. 
+
+![Screenshot (98)](https://user-images.githubusercontent.com/91089401/153507811-e55def0a-eb7b-443a-bb36-a04bbe566817.png)
