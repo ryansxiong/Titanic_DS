@@ -1,4 +1,4 @@
-# Titanic_DS
+# Titanic - Machine Learning From Disaster (Competition)
 This is a machine learning competition on Kaggle. The goal is to create a model to predict which passengers survive in the Titanic shipwreck.
 _link:_ https://www.kaggle.com/c/titanic 
 
