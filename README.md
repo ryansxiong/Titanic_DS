@@ -36,4 +36,4 @@ Now that I am more familiar with the data, this is where I manipulate the data f
 * Taking a look at fare prices and categorizing them into small, medium, and large price ranges. I did not include this in the final model since I produced better results with the original fare. This may be due to overfitting the model. 
 
 ![Screenshot (98)](https://user-images.githubusercontent.com/91089401/153507811-e55def0a-eb7b-443a-bb36-a04bbe566817.png)
-![Screenshot (117)](https://user-images.githubusercontent.com/91089401/153508094-bb455174-67b1-4bc0-9d32-b129080c8aac.png)
+![Screenshot (117)](https://user-images.githubusercontent.com/91089401/153508154-0de8f858-2185-4106-8e47-ace1d055e39b.png)
