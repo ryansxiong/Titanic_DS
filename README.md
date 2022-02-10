@@ -28,7 +28,7 @@ Before creating a model I cleaned and familiarized myself with the data to find 
 Now that I am more familiar with the data, this is where I manipulate the data for modeling. 
 
 **Cabin**
-* I first took a look at the 'Cabin' column. I separated the column into 'cabin letter' and 'cabin multiple'. I then took a look at the survival perccentages.  
+* I first took a look at the 'Cabin' column. I separated the column into 'cabin letter' and 'cabin multiple'. I then took a look at the survival percentages.  
 
 ![Screenshot (97)](https://user-images.githubusercontent.com/91089401/153506309-7c82c477-f396-4f0f-bf85-b10534ad7ad3.png)
 
