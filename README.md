@@ -94,7 +94,7 @@ Using GridsearchCV to tune the models
 | MultinomialNB 79.19% | not tuned |
 | Random Forest Classifier 80.32% | **83.36%** |
 | Logistic Regression 82.23% | **82.57%** |
-| Support Vector Machine | 73.23% |
+| Support Vector Machine 73.23% | not tuned |
 | SGDClassifier 76.15% | not tuned |
 | KNeighborsClassifier 81.11% | **81.22%** |
 | Decision Tree Classifier 78.74% | **82.34%** |
