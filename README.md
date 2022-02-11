@@ -9,7 +9,7 @@ _link:_ https://www.kaggle.com/c/titanic
 * **Visual Tools**: Matplotlib, Seaborn
 * **Data Collection**: https://www.kaggle.com/c/titanic/data 
 
-**_full code can be found in the folder labeled (Titanic_Survivors_v2.ipynb)_**
+**_full code can be found in the folder labeled (titanic.ipynb)_**
 
 ## EDA
 Before creating a model I cleaned and familiarized myself with the data to find if there were any trends and correlations.
