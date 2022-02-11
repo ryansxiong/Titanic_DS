@@ -84,4 +84,26 @@ Below you will find all the models that I used and how accurate the model was.
 ![Screenshot (124)](https://user-images.githubusercontent.com/91089401/153520663-13d3afb6-8fe6-4d12-8bb6-4e5dd43358a0.png)
 ![Screenshot (125)](https://user-images.githubusercontent.com/91089401/153520709-03b6739a-4c0e-43f2-94e8-8afe775931f0.png)
 
+## Tuning Models With GridsearchCV
+Using GridsearchCV to tune the models
+
+| **Model** | **New Score** |
+|---|---|
+| xgboost classifier 82.23% | **85.72%** |
+| Gaussian NB 76.50% | not tuned |
+| MultinomialNB 79.19% | not tuned |
+| Random Forest Classifier 80.32% | **83.36%** |
+| Logistic Regression 82.23% | **82.57%** |
+| Support Vector Machine | 73.23% |
+| SGDClassifier 76.15% | not tuned |
+| KNeighborsClassifier 81.11% | **81.22%** |
+| Decision Tree Classifier 78.74% | **82.34%** |
+| Gradient Boosting Classifier 83.58% | **83.36%** |
+
+![Screenshot (129)](https://user-images.githubusercontent.com/91089401/153521727-76d39993-3435-4feb-a2cb-d95265aee488.png)
+![Screenshot (126)](https://user-images.githubusercontent.com/91089401/153521559-7fcf2651-5604-4761-af58-f2229e5da307.png)
+![Screenshot (127)](https://user-images.githubusercontent.com/91089401/153521617-57318332-5b29-40c9-b6b8-97a6bda7d92d.png)
+![Screenshot (128)](https://user-images.githubusercontent.com/91089401/153521676-57b3fc37-b209-46bd-8a68-57ee5998b19f.png)
+
+
 
