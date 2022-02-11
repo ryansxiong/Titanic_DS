@@ -27,13 +27,61 @@ Before creating a model I cleaned and familiarized myself with the data to find 
 ## Feature Engineering
 Now that I am more familiar with the data, this is where I manipulate the data for modeling. 
 
+1) I first took a look at the 'Cabin' column. I separated the column into 'cabin letter' and 'cabin multiple'. I then took a look at the survival percentages.  
+2) Taking a look at fare prices and categorizing them into small, medium, and large price ranges. I did not include this in the final model since I produced better results with the original fare. This may be due to overfitting the model. Although I did not include this, I still think this is still something to keep in mind.
+3) For the tickets column, I also separated the numbers and letters ('ticket_number', 'ticket_letters'). I also used a pivot table to compare those who survived if they had a number on their ticket.
+4) I created a new column to count the family size. _I did not include this in the final model_
+5) I then fixed and categorized name titles for each passenger. Once I got the name title for each passenger, I categorized the least common names into the other categories, and had a special category for specific titles. For example, mlle would count as 'miss' and 'don' would count as 'other'.
+
+
 **Cabin**
-* I first took a look at the 'Cabin' column. I separated the column into 'cabin letter' and 'cabin multiple'. I then took a look at the survival percentages.  
 
 ![Screenshot (97)](https://user-images.githubusercontent.com/91089401/153506309-7c82c477-f396-4f0f-bf85-b10534ad7ad3.png)
 
-**Fare**
-* Taking a look at fare prices and categorizing them into small, medium, and large price ranges. I did not include this in the final model since I produced better results with the original fare. This may be due to overfitting the model. 
+**Fare** 
 
-![Screenshot (98)](https://user-images.githubusercontent.com/91089401/153507811-e55def0a-eb7b-443a-bb36-a04bbe566817.png)
-![Screenshot (117)](https://user-images.githubusercontent.com/91089401/153508154-0de8f858-2185-4106-8e47-ace1d055e39b.png)
+![Screenshot (119)](https://user-images.githubusercontent.com/91089401/153518559-dda393c2-47bb-4736-87a3-b0ed3f31d5bd.png)
+
+**Tickets**
+
+![Screenshot (118)](https://user-images.githubusercontent.com/91089401/153518268-5cb52897-738b-42aa-ac8e-972a040284cc.png)
+
+**Family Size**
+
+![Screenshot (120)](https://user-images.githubusercontent.com/91089401/153518706-8e62ea99-8b71-4f5a-8e78-059e3cf07004.png)
+
+## Prepare for Modelling
+1) Looked at the percentage of missing values for the dataset.
+2) Dropped 'embarked' null values.
+3) Filled NA values for both 'Fare' and 'Age'.
+4) Changed pclass into string since it is a categorical value.
+5) Used logarithm for 'Fare' to normalize the distribution.
+
+![Screenshot (121)](https://user-images.githubusercontent.com/91089401/153519257-edb2e636-d75f-4792-bbfc-a3bf7a57151b.png)
+
+## Getting Dummies
+Used pandas to get dummies and split to train test.
+
+![Screenshot (122)](https://user-images.githubusercontent.com/91089401/153519567-94623116-0322-4ad3-b188-4791cd77aed1.png)
+
+## Basic Modelling
+Below you will find all the models that I used and how accurate the model was.
+
+| **Model** | **Percentage** |
+|---|---|
+| xgboost classifier | 82.23% |
+| Gaussian NB | 76.50% |
+| MultinomialNB | 79.19% |
+| Random Forest Classifier | 80.32% |
+| Logistic Regression | 82.23% |
+| Support Vector Machine | 73.23% |
+| SGDClassifier | 76.15% |
+| KNeighborsClassifier | 81.11% |
+| Decision Tree Classifier | 78.74% |
+| Gradient Boosting Classifier | 83.58% |
+
+![Screenshot (123)](https://user-images.githubusercontent.com/91089401/153520613-a1593bfd-4913-43f9-aa24-290851c133e1.png)
+![Screenshot (124)](https://user-images.githubusercontent.com/91089401/153520663-13d3afb6-8fe6-4d12-8bb6-4e5dd43358a0.png)
+![Screenshot (125)](https://user-images.githubusercontent.com/91089401/153520709-03b6739a-4c0e-43f2-94e8-8afe775931f0.png)
+
+
