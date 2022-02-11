@@ -28,7 +28,7 @@ Before creating a model I cleaned and familiarized myself with the data to find 
 Now that I am more familiar with the data, this is where I manipulate the data for modeling. 
 
 1) I first took a look at the 'Cabin' column. I separated the column into 'cabin letter' and 'cabin multiple'. I then took a look at the survival percentages.  
-2) Taking a look at fare prices and categorizing them into small, medium, and large price ranges. I did not include this in the final model since I produced better results with the original fare. This may be due to overfitting the model. Although I did not include this, I still think this is still something to keep in mind.
+2) Taking a look at fare prices and categorizing them into small, medium, and large price ranges. I did not include this in the final model since I produced better results with the original fare. This may be due to overfitting the model. Although, I did not include this, I still think this is still something to keep in mind.
 3) For the tickets column, I also separated the numbers and letters ('ticket_number', 'ticket_letters'). I also used a pivot table to compare those who survived if they had a number on their ticket.
 4) I created a new column to count the family size. _I did not include this in the final model_
 5) I then fixed and categorized name titles for each passenger. Once I got the name title for each passenger, I categorized the least common names into the other categories, and had a special category for specific titles. For example, mlle would count as 'miss' and 'don' would count as 'other'.
