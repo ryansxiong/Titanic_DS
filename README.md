@@ -105,5 +105,6 @@ Using GridsearchCV to tune the models
 ![Screenshot (127)](https://user-images.githubusercontent.com/91089401/153521617-57318332-5b29-40c9-b6b8-97a6bda7d92d.png)
 ![Screenshot (128)](https://user-images.githubusercontent.com/91089401/153521676-57b3fc37-b209-46bd-8a68-57ee5998b19f.png)
 
-
+## Results
+After modelling, I put my predictions into a dataframe and submitted them on the kaggle website. I was able to submit a prediction accuracy of 79%, which placed me in the top 8% of participants. Some ways to look at in the future would be to consider model stacking, look into _hard and soft_ voting, and play with the feature engineering to see if I can improve on my score.
 
