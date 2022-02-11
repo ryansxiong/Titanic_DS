@@ -6,6 +6,7 @@ _link:_ https://www.kaggle.com/c/titanic
 * **Python Version**: 3.8
 * **Packages**: Pandas, Numpy, Scikit-learn
 * **Visual Tools**: Matplotlib, Seaborn
+* **Data Collection**: https://www.kaggle.com/c/titanic/data 
 
 **_full code can be found in the folder labeled (Titanic_Survivors_v2.ipynb)_**
 
